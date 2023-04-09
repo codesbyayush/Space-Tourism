@@ -7,7 +7,7 @@ import Crew from "./components/Crew.jsx";
 import Technology from "./components/Technology";
 import { Routes, Route } from "react-router-dom";
 
-const res = await fetch("../data.json").then((response) => response.json());
+const res = await fetch("/data.json").then((response) => response.json());
 
 function App() {
   return (
