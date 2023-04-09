@@ -71,7 +71,7 @@ export default function Crew({ data }) {
           src={data !== undefined ? data[ind].images.png : Commander}
           className="h-[15rem] lg:h-auto mx-auto"
         />
-        <hr/>
+        <hr className="lg:hidden"/>
       </div>
     </div>
   );
